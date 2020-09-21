@@ -5,4 +5,4 @@ if [[ $? != 0 ]] ; then
 	exit 1
 fi
 
-brew cask install appcleaner clipy movist-pro notion shift spotify whatsapp
+brew cask install appcleaner chrome firefox clipy hiddenbar insomnia moom movist-pro notion shift spotify whatsapp
