@@ -6,4 +6,10 @@ if [[ $? != 0 ]] ; then
 fi
 
 brew install php mysql
-brew cask install docker github sublime-text
+brew cask install awscli docker github sublime-text
+
+cat >> ~/.zshrc << EOF
+plugins=(... aws)
+plugins=(... docker)
+plugins=(... sublime)
+EOF
